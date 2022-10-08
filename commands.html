@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, shrink-to-fit=no">
+    <meta name="description" content="DustyBot, an open-source bot for music fan Discords.">
+    <meta name="author" content="Yeba">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+    <title>Reference</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link href="css/fontawesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://dustybot.info/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/new-age_new.css" rel="stylesheet">
+</head>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark pinned-top" style="background-color: 2b2b2b;" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="/">Kottu</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars" style="margin-left: 3px"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://discord.com/oauth2/authorize?client_id=325387620266016768&scope=applications.commands%20bot&permissions=319552"
+                            onClick="return invite()">Invite</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commands.html">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://discord.gg/">Discord</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/NixDevs/Website">Code</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+<header>
+    
+    <h1 style="text-decoration:underline;">Reference to all commands</h1>
+    <li><code>/</code> This bot supports slash commands.</li>
+    <li>Syntax is given within the command name.</li>
+    <br>
+    <h3 style="text-decoration:underline; margin: auto;">🧭 Table of Contents</h3><br>
+    <div class="row"><div class="col-lg-12 section-heading" style="margin-bottom: 0px; line-height: 0.6cm 20px;">
+    <p class="text-muted" style="line-height: 0.5cm;"><a href="#bot" style="text-decoration-line: underline; color: darkkhaki;">🤖 Bot</a> - Jump to all basic commands</p>
+    <p class="text-muted"><a href="#taboo" style="text-decoration-line: underline; color: darkkhaki; ">Taboo</a> - Jump to all related to the taboo plugin</p>
+    <p class="text-muted"><a href="#cah" style="text-decoration-line: underline; color: darkkhaki;">Cards against humanity</a> - Jump to all commands related to the C.A.H plugin</p>
+    <p class="text-muted"><a href="#admin" style="text-decoration-line: underline; color: darkkhaki;">Admin</a> - Jump to all commands for setup</p>
+
+    </div>
+    <br>
+    <hr />
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <a class="anchor" id="bot"></a>
+            <h3>🤖 Bot</h3>
+            <p class="text-muted">Help and bot-related commands.</p>    
+    </div>
+    <div class="row">
+        <div class="col">           
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/help</code> - Display a list of all commands</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/ping</code> - Retrieve the bot's latency</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/info</code> - Display general information about the bot</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/vote</code> - Get vote links for the bot!</p>                            
+        </div>
+    </div>
+    <hr />
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <a class="anchor" id="taboo"></a>
+            <h3>🤫Taboo</h3>
+            <p class="text-muted">Commands related to the taboo plugin.</p>    
+    </div>
+    <div class="row">
+        <div class="col">           
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/taboo info</code> - Get rules and how-to-play information about the game</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/taboo start</code> - Starts a new game of taboo. Only one game of taboo is allowed at a time per server</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/taboo stop</code> - Force stop a game of taboo</p>
+        </div>
+    </div>
+    <hr />
+    <br>
+    <div class="row">
+        <div class="col-lg-12">
+            <a class="anchor" id="cah"></a>
+            <h3>🃏 Cards against humanity</h3>
+            <p class="text-muted">Commands related to the C.A.H plugin.</p>    
+    </div>
+    <div class="row">
+        <div class="col">           
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/cah info</code> - Get rules and how-to-play information about the game</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/cah start [explicit=true|false default=false]</code> - Starts a new game of C.A.H. One game can run at a time for each channel. Explicit flag enables cards to contain NSFW content</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/cah stop</code> - Force stop a game of C.A.H</p>
+        </div>
+    </div>
+    <hr />
+    <br>
+     <div class="row">
+        <div class="col-lg-12">
+            <a class="anchor" id="admin"></a>
+            <h3>🛠️ Admin</h3>
+            <p class="text-muted">Commands related to setup.</p>    
+    </div>
+    
+    <div class="row">
+        <div class="col">           
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/adminrole [role default=none]</code> - Set an admin role for the server. Specify no role to clear the current admin role</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/plugin enable [plugin required=true]</code> - Enables a game plugin.</p>
+                <p style="line-height:0.5cm;"><code style="font-size:20px">/plugin disable [plugin required=true]</code> - Disables a game plugin.</p>
+        </div>
+    </div>
+    </header>
+</html>
