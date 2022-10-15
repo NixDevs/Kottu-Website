@@ -7,6 +7,6 @@ function popupWindow(url, title, win, w, h) {
 }
 
 function invite() {
-	popupWindow('https://discord.com/oauth2/authorize?client_id=325387620266016768&scope=bot&permissions=8192', 'Add to server', window, 500, 700)
+	popupWindow('https://discord.com/oauth2/authorize?client_id=1020299746969133066&scope=applications.commands%20bot&permissions=328565385280', 'Add to server', window, 500, 700)
 	return false;
 }
